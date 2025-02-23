@@ -91,7 +91,7 @@ querylog:
   ignored: []
   interval: 6h
   size_memory: 1000
-  enabled: false
+  enabled: true
   file_enabled: true
 statistics:
   dir_path: ""
@@ -103,6 +103,42 @@ filters:
     url: https://anti-ad.net/easylist.txt
     name: 'CHN: anti-AD'
     id: 1640156838
+  - enabled: true
+    url: https://github.boki.moe/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+    name: '秋风广告规则(AWAvenue-Ads-Rule_天命CFCDN订阅源)'
+    id: 1640156839
+  - enable: true
+    url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockdns.txt
+    name: 'adblockdns'
+    id: 1640156840
+  - enable: true
+    url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockdnslite.txt
+    name:'adblockdns-lite'
+    id: 1640156841
+  - enable: true
+    url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockfilters.txt
+    name: 'adblockfilters'
+    id: 1640156842
+  - enable: true
+    url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockfilterslite.txt
+    name: 'adblockfilters-lite'
+    id: 1640156843
+  - enable: true
+    url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockdomain.txt
+    name: 'adblockdomain'
+    id: 1640156844
+  - enable: true
+    url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockdomainlite.txt
+    name: 'adblockdomain-lite'
+    id: 1640156845
+  - enable: true
+    url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockdnsmasq.txt
+    name: 'adblockdnsmasq'
+    id: 1640156846
+  - enable: true
+    url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockdnsmasqlite.txt
+    name: 'adblockdnsmasq-lite'
+    id: 1640156847
 whitelist_filters: []
 user_rules:
   - ""
