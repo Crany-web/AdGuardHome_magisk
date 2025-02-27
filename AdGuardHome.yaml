@@ -113,7 +113,7 @@ filters:
     id: 1640156840
   - enable: true
     url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockdnslite.txt
-    name:'adblockdns-lite'
+    name: 'adblockdns-lite'
     id: 1640156841
   - enable: true
     url: https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockfilters.txt
